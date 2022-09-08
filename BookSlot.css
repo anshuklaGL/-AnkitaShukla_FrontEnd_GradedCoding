@@ -1,0 +1,62 @@
+#id_Contact h2 {
+    text-align: left;
+}
+
+div.scroll {
+    margin: 250px, 250px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding: 4px;
+    background-color: white;
+    overflow-y: scroll;
+    text-align: justify;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+#form1 {
+    height: 600px
+}
+
+
+image {
+    background-attachment: fixed;
+}
+
+input,
+select {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: grey;
+    margin-top: 2%
+}
+
+input:focus {
+    border-color: grey;
+}
+
+input,
+label,
+h3,
+#district {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    float: left;
+    border: none;
+    background-color: rgb(175, 102, 243);
+}

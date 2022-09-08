@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Book Slot</title>
+    <link rel="stylesheet" href="BookSlot.css">
+</head>
+
+<body>
+
+    <div id="form1" class="scroll">
+        <form action="">
+            <image id="img" align="right" src="images/Lab-Test/lab-test.jpg" alt="Care1" height="580" width="800">
+            </image>
+            <section>
+                <article id="id_Contact">
+                    <h3>1. Your Contact Details</h3>
+                    <input type="text" name="u_fname" placeholder="Full Name" required>
+                    <input type="text" name="u_pid" placeholder="Patient Id if exists" required>
+                    <br>
+                    <input type="number" name="u_contact" placeholder="Contact Number" required>
+                    <input type="email" name="u_email" placeholder="Email Id" required>
+                </article>
+            </section>
+            <section>
+                <article id="id_Address">
+                    <h3>2. Address</h3>
+                    <input type="text" name="hnum" placeholder="H-No">
+                    <input type="text" name="u_street" placeholder="Street">
+                    <br>
+                    <input type="text" name="u_area" placeholder="Area"><br>
+                    <br>
+                    <h4>District</h4>
+                    <select name="District" id="district" required>
+                        <option value="">Choose</option>
+                        <option value="Bangalore Urban">Bangalore Urban</option>
+                        <option value="Bangalore Rural">Bangalore Rural</option>
+                        <option value="Ramnagar">Ramnagar</option>
+                    </select>
+                </article>
+            </section>
+            <section>
+                <article id="id_testtype">
+                    <h3>3. Test Type</h3>
+                    <p>Check atleast one box without fail</p>
+                    <input type="checkbox" id="id_cbc" value="CBC">
+                    <label for="testtype1"> CBC </label><br>
+                    <input type="checkbox" id="id_comur" value="Complete Urine">
+                    <label for="testtype2"> Complete Urine</label><br>
+                    <input type="checkbox" id="id_lipid" value="Lipid Profile">
+                    <label for="testtype3"> Lipid Profile</label><br>
+                    <input type="checkbox" id="id_tsh" value="Thyroid Stimulating Hormone(TSH)">
+                    <label for="testtype4"> Thyroid Stimulating Hormone(TSH)</label><br>
+                    <input type="checkbox" id="id_glucose" value="Glucose Test">
+                    <label for="testtype5"> Glucose Test</label><br>
+                </article>
+            </section>
+            <section>
+                <article id="id_report">
+                    <h3>Do you want a hard copy of the report also?</h3>
+                    <input type="radio" id="c5" name="option" value="True" required>
+                    <label for="c5">Yes</label>
+                    <br>
+                    <input type="radio" id="c6" name="option" value="False">
+                    <label for="c6">No</label>
+                </article>
+            </section>
+            <section>
+                <article id="id_dt_time">
+                    <h3>Select Your Comfortable Date and Time</h3>
+                    <label for="c1">Date</label>
+                    <input type="date" required>
+                    <br>
+                    <label for="c1">Time </label>
+                    <input type="time" required>
+                </article>
+            </section>
+            <button>Reset</button>
+            <button>Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
